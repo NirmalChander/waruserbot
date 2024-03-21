@@ -28,6 +28,7 @@ _starter () {
     unzip -qq "$hellpath"
     rm -rf "$hellpath"
     cd $HELLPATH
+    cd myplugins
     python3 ../updater.py ../requirements.txt requirements.txt
     echo "••• STARTING WARUSERBOT •••"
     _library
